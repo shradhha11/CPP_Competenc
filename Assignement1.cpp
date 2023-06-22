@@ -5,7 +5,7 @@ class Car
 {
     public:
     int releaseYear;
-    char customer[100];
+    string customer;
     int speed;
 
 int getValues()
