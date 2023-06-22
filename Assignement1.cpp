@@ -24,7 +24,7 @@ int display()
 {
     cout<<"\nRelease Year of Car:"<<releaseYear;
     cout<<"\nCustomer name of Car:"<<customer;
-    cout<<"\nCurrent Speed of Car:"<<speed;
+    cout<<"\nCurrent Speed of Car:"<<speed<<" km/h";
     return 0;
 }
   int accelerate()
@@ -50,27 +50,27 @@ int main()
         c1.accelerate();
     }
     cout<<"\nAfter Accelerate";
-    cout<<"\nCurrent Speed of Car:"<<c1.speed;
+    cout<<"\nCurrent Speed of Car:"<<c1.speed<<" km/h";
     for(i=0;i<5;i++)
     {
         c1.brake();
     }
     cout<<"\nAfter Deaccelerate";
-    cout<<"\nCurrent Speed of Car:"<<c1.speed;
+    cout<<"\nCurrent Speed of Car:"<<c1.speed<<" km/h";
     return 0;
 }
 
 
 /*
 OUTPUT:
-Enter Release Year: 2012
-Enter Customer Name of Car: HONDA
-Enter Speed of Car: 50
-Release Year of Car:2012
-Customer name of Car:HONDA
-Current Speed of Car:50
+Enter Release Year: 2023
+Enter Customer Name of Car: honda
+Enter Speed of Car: 60
+Release Year of Car:2023
+Customer name of Car:honda
+Current Speed of Car:60 km/h
 After Accelerate
-Current Speed of Car:100
+Current Speed of Car:110 km/h
 After Deaccelerate
-Current Speed of Car:50
+Current Speed of Car:60 km/h
 */
